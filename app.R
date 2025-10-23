@@ -30,7 +30,8 @@ songs <- songs %>%
 # ui
 #########
 ui <- fluidPage(
-  theme = shinytheme("flatly"),  # använd modernt blågrönt tema
+  # använd modernt tema
+  theme = shinytheme("flatly"),  
   titlePanel("🎵 Låtmatcharen — hitta din perfekta låt!"),
   
   sidebarLayout(
